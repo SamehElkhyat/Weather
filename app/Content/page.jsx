@@ -223,7 +223,6 @@ export default function Content() {
           </motion.div>
         </div>
       </motion.section>
-
       {/* Main Content */}
       <section className="weather-content">
         <div className="container-modern">
@@ -286,8 +285,6 @@ export default function Content() {
               </FormControl>
             </div>
           </motion.div>
-
-          {/* Weather Cards Grid */}
           <div ref={cardsRef} className="weather-grid">
             <AnimatePresence mode="wait">
               { error ? (
