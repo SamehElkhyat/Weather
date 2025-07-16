@@ -175,7 +175,6 @@ export default function Content() {
       return <ThermometerIcon />
     }
   }
-
   // Format date for forecast
   const formatDate = (dateString) => {
     const date = new Date(dateString)
@@ -184,7 +183,6 @@ export default function Content() {
       date: date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
     }
   }
-
   return (
     <div className="content-wrapper">
       {/* Hero Banner */}
