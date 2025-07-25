@@ -164,7 +164,6 @@ export default function Content() {
     fetchWeatherData()
   }, [fetchWeatherData])
 
-  // Get weather condition icon
   const getWeatherIcon = (condition) => {
     const conditionLower = condition?.toLowerCase() || ''
     if (conditionLower.includes('rain') || conditionLower.includes('drizzle')) {
